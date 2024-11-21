@@ -1,0 +1,31 @@
+# Build artifacts
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.nuget/
+project.lock.json
+packages/
+
+# User-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+
+# Configuration files
+appsettings.*.json
+appsettings.Development.json
+
+# Test files
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# Temporary files
+*.tmp
+*.bak

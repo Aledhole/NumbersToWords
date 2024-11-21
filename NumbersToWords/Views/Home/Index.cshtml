@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2 class="text-center">Number to Words Converter</h2>
+
+<div class="box-wrapper mx-auto mt-5 p-4 border rounded bg-light shadow" style="max-width: 600px;">
+    <!-- Search bar -->
+    <form method="get" action="/">
+        <div class="input-group my-3">
+            <input type="number" step="0.01" name="number" class="form-control" placeholder="Enter a number" required />
+            <button type="submit" class="btn btn-primary">Convert</button>
+        </div>
+        @if (ViewData["Error"] != null)
+        {
+            <div class="text-danger mt-2">
+                <strong>Error:</strong> @ViewData["Error"]
+            </div>
+        }
+    </form>
+
+    <!-- Display results -->
+    @if (ViewData["Words"] != null)
+    {
+        <div class="mt-4">
+            <p><strong>Number:</strong> @ViewData["Number"]</p>
+            <div class="card p-3">
+                <p><strong>Words:</strong> @ViewData["Words"]</p>
+            </div>
+        </div>
+    }
+</div>
