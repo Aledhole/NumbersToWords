@@ -15,6 +15,12 @@ packages/
 *.suo
 *.log
 
+# Runtime files
+.vs/config/applicationhost.config
+*.db
+*.pid
+*.swap
+
 # Configuration files
 appsettings.*.json
 appsettings.Development.json
