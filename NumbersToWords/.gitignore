@@ -1,13 +1,6 @@
 # Build artifacts
 bin/
 obj/
-
-# NuGet
-*.nupkg
-*.nuget/
-project.lock.json
-packages/
-
 # User-specific files
 .vs/
 .vscode/
@@ -20,6 +13,19 @@ packages/
 *.db
 *.pid
 *.swap
+
+# Package-managed libraries (e.g., Bootstrap via LibMan or npm)
+wwwroot/lib/
+
+# Generated or minified static files
+wwwroot/**/*.min.js
+wwwroot/**/*.min.css
+wwwroot/**/*.map
+
+# Keep custom files
+!wwwroot/css/
+!wwwroot/js/
+!wwwroot/images/
 
 # Configuration files
 appsettings.*.json

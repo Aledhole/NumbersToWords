@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersToWords", "NumbersTo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNumberToWords", "..\TestNumberToWords\TestNumberToWords.csproj", "{A61804C4-4DB2-438F-9857-BD3A9E9C4FB5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8F00AA2-2F2F-450B-9689-84D500F87B16}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B16AB7DE-48D0-4142-8D72-E88A82F4986F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
