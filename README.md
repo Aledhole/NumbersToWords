@@ -19,3 +19,7 @@ A simple ASP.NET Core web application that converts numerical input into its cor
 3. Run Application
 
 ---  
+
+## How to use
+
+Enter numerical value into search bar
